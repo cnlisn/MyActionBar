@@ -4,6 +4,42 @@
 
 ![](https://github.com/cnlisn/MyActionBar/blob/master/Picture/WX20191025-095050%402x.png)
 
+## 属性介绍
+
+    ActionBarSG
+    
+    <!--是否开启自动沉浸状态栏，默认为true-->
+    <attr name="ab_autoImmersion" format="boolean" />
+    <!--背景层布局，优先级高于背景层为图片-->
+    <attr name="ab_backgroundLayerLayout" format="reference" />
+    <!--背景层为图片-->
+    <attr name="ab_backgroundLayerImageRes" format="reference" />
+    <!--是否显示状态栏，默认为true-->
+    <attr name="ab_statusBarVisible" format="boolean" />
+    <!--状态栏颜色，默认透明-->
+    <attr name="ab_statusBarColor" format="color|reference" />
+    <!--状态栏图标颜色模式，默认light-->
+    <attr name="ab_statusBarMode" format="enum">
+        <enum name="light" value="0" />
+        <enum name="dark" value="1" />
+    </attr>
+    <!--点击关闭Activity控件ID-->
+    <attr name="ab_clickToFinish" format="reference" />
+    <!--主体层布局-->
+    <attr name="ab_titleBarLayout" format="reference" />
+    <!--主体层高度，默认为48dp-->
+    <attr name="ab_titleBarHeight" format="dimension|reference" />
+    <!--底部分割线高度，默认为0dp-->
+    <attr name="ab_bottomLineHeight" format="dimension|reference" />
+    <!--底部分割线颜色，默认透明-->
+    <attr name="ab_bottomLineColor" format="color|reference" />
+    <!--底部分割线资源引用，默认透明-->
+    <attr name="ab_bottomLineResId" format="reference" />
+    <!--底部分割线位于ActionBar外部，可实现投影效果-->
+    <attr name="ab_bottomLineOutside" format="boolean|reference" />
+    <!--前景层布局-->
+    <attr name="ab_foregroundLayerLayout" format="reference" />
+    
 ## 使用：
 
     import android.content.Intent;
