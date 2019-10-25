@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".TestInOneFragment">
+
+    <com.lisn.common.ActionBarCommon
+        android:id="@+id/simple_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title_bar_custom_bg"
+        app:ab_autoImmersion="true"
+        app:abc_leftIconRes="@mipmap/back"
+        app:abc_rightText="切换"
+        app:abc_rightTextColor="@color/white"
+        app:abc_titleText="第一个Fragment"
+        app:abc_titleTextColor="@color/white"
+        app:ab_statusBarMode="dark"
+        app:ab_titleBarHeight="48dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="这是第一个Fragment，为什么要测试呢？因为之前有个BUG，在Fragment中有软键盘弹出时切换Fragment会让ActionBar状态栏绘图错乱"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="16dp"
+        android:background="@color/line"
+        android:hint="这是输入框，你可以试试，现在好了"
+        android:padding="6dp"
+        android:textSize="15sp" />
+
+</LinearLayout>

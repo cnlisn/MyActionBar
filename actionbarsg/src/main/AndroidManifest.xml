@@ -1,0 +1,15 @@
+<!--
+  ~ *************************************************************
+  ~
+  ~ @File：AndroidManifest.xml  Module：MyWanAndroid  Project：MyWanAndroid
+  ~ @CreatedDate：2019-10-24 13:57:26
+  ~ @LastDate：2019-10-24 13:57:26
+  ~ @Author：LiShan
+  ~ E-mail:cnlishan@163.com
+  ~ Copyright (c) 2019
+  ~
+  ~ *************************************************************
+  -->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lisn.actionbarsg" />

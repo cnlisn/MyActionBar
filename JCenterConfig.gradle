@@ -1,0 +1,24 @@
+ext{
+    jcenter = [
+            versionCode: 1,
+            versionName: "1.0.0",
+            //项目名称
+            name       : "ActionBarSG",
+            groupId    : "com.lisn",
+            siteUrl    : "https://github.com/cnlisn", //项目地址
+            gitUrl     : "https://github.com/cnlisn", //项目git地址
+            description: "导航栏",                     //项目描述
+            authorId   : "SG",                        //开发者的一些基本信息
+            authorName : "SG",                        //开发者的一些基本信息
+            authorEmail: "SG",                        //开发者的一些基本信息
+
+            //开原协议
+            licenses   : {
+                license {
+                    name 'MIT'
+                    url 'https:opensource.org/licenses/MIT'
+                }
+            },
+            licenseName: 'MIT'
+    ]
+}
