@@ -1,6 +1,8 @@
 # MyActionBar
 
+## 效果图
 
+![](https://github.com/cnlisn/MyActionBar/blob/master/Picture/WX20191025-095050%402x.png)
 
 ## 使用：
 
