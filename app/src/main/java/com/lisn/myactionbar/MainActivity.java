@@ -123,4 +123,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+    /**
+     * 自定义ViewGroup_标题栏的悬浮吸顶渐变效果
+     * @param view
+     */
+    public void bt_xfxd(View view) {
+      startActivity(new Intent(this,CustomFrameLayoutActivity.class));
+    }
 }
